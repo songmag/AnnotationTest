@@ -3,17 +3,16 @@ Annotation 을 Source로 잡았을 때 compile 시에 처리되는 것으로 비
 
 
 # 프로그램 제작 동기
- > 어노테이션이라는 자바의 기능이 있으나 사용하는데 있어서 Retain에 있는 Source, Class, Runtime 에 대해 생각하며, 이런 Retain에 대한 것도 생각해 보고 싶었다.
+ > 어노테이션이라는 자바의 기능이 있으나 사용하는데 있어서 Retention에 있는 Source, Class, Runtime 에 대해 생각하며, 이런 Retain에 대한 것도 생각해 보고 싶었다.
 
 # 프로그램 제작 시간 : 20 시간 
 
 # 사용 Library : 
 <pre> <code> 
-<dependency>
+dependency
     <groupId>com.google.auto.service</groupId>
     <artifactId>auto-service</artifactId>
     <version>1.0-rc6</version>
-</dependency>
 </code>
 </pre>
 
